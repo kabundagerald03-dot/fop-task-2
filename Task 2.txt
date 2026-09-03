@@ -1,0 +1,13 @@
+Type "help", "copyright", "credits" or "license" for more information.
+>>> name = input("Hello! Please enter your name: ")
+Hello! Please enter your name: Gerald
+>>> print(f"Nice to meet you, {name}!")
+Nice to meet you, Gerald!
+>>> feeling = input("How are you feeling today? (good/bad): ")
+How are you feeling today? (good/bad): bad
+>>> if "good" in feeling:
+...     print("Thats awesome! I hope the rest of the day is just as great.")
+...     elif "bad" in feeling:
+...         print("I'm sorry to hear that. I hope things get better for you soon")
+...         else:
+...             print(f"Thaanks for sharing {name}! Better things ahead. God's speed!")
